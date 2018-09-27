@@ -10,6 +10,9 @@ import { UpdateComponent } from './components/crud/update/update.component';
 import { DeleteComponent } from './components/crud/delete/delete.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CategoryComponent } from './components/category/category.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatCardModule , MatButtonModule} from '@angular/material';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { CategoryComponent } from './components/category/category.component';
     CategoryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
