@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'frontend';
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 77604d96afa4c7b988bc4829e6fb69eb668412ee
